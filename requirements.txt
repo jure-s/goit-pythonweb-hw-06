@@ -1,0 +1,16 @@
+# Основні залежності
+SQLAlchemy==2.0.29
+psycopg2-binary==2.9.9
+alembic==1.13.1
+Faker==25.0.1
+
+# CLI та аргумент-парсер
+argparse==1.4.0
+
+# Тестування (якщо потрібно)
+pytest==8.3.4
+pytest-asyncio==0.25.3
+pytest-faker==2.0.0
+
+# Логування (якщо потрібно)
+loguru==0.7.2

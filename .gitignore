@@ -1,0 +1,43 @@
+# Ігноруємо Python файли кешу
+__pycache__/
+*.pyc
+*.pyo
+
+# Ігноруємо середовища віртуального оточення
+venv/
+.env/
+.venv/
+env/
+
+# Ігноруємо налаштування IDE/редакторів коду
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ігноруємо файли журналів та бази даних
+logs/
+*.log
+*.sqlite3
+
+# Ігноруємо файли Alembic міграцій (якщо вони генеруються автоматично)
+migrations/versions/*.pyc
+migrations/versions/*.pyo
+migrations/versions/__pycache__/
+
+# Ігноруємо дані тестів та покриття коду
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Ігноруємо тимчасові файли
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ігноруємо залежності, якщо вони встановлюються локально
+*.egg-info/
+dist/
+build/
